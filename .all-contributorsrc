@@ -1,0 +1,25 @@
+{
+  "projectName": "YVHS-Dexterra",
+  "projectOwner": "Johnathan Perez",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Jhony279",
+      "name": "Jhony279",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114624753?v=4",
+      "profile": "https://github.com/Jhony279",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}
