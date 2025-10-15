@@ -1,21 +1,3 @@
-/*
- * PID_Two_Motor_Control.ino (ESP32 Version using analogWrite)
- *
- * This sketch controls two motors independently using two PID controllers
- * and two encoders. Encoders are read by polling.
- *
- * Control setpoints via the Serial Monitor using the format:
- * "motor_number:setpoint"  (e.g., "1:2000" or "2:-500")
- *
- * HARDWARE (ESP32):
- * - Motor 1:
- * - Driver IN1/IN2 on pins 25, 26
- * - Encoder A/B on pins 32, 33
- * - Motor 2:
- * - Driver IN1/IN2 on pins 12, 13
- * - Encoder A/B on pins 18, 19
- */
-
 #include "PID.h"
 #include "DRV8833.h"
 #include "Encoder.h"
